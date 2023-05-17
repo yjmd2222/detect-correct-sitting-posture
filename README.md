@@ -11,6 +11,7 @@ Google Research의 MoveNet을 이용하여 생성한 데이터로 앉은 자세�
 - 모델을 베포한다면 작은 하드웨어에 탑재해서 베포할 가능성 고려
 - PC 사양 기재 및 실시간 감지 중 시간 출력 기능 추가
 	+ `wait` 딜레이 수정 필요. `datetime`으로 처음시각 `+=`로 정확한 시간 추려보기
+- 이상치 탐지 모델(train only normal sitting posture)로 접근해보는 것이 가장 좋은데, 여러 가지로 구성해보았지만 다 성능이 안 좋음.
 	
 ## Credits
 - Google Research for MoveNet
